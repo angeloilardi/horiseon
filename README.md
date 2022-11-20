@@ -12,7 +12,7 @@ The goal of thid project is to make the existing Horiseon page adhere to accessi
 
 Horiseon will have a page that is accessible to a wider audience and that will have a higher ranking on search engines.
 
-The code has also been optimized by condensing CSS
+The code has also been optimized by condensing CSS.
 
 
 ## Installation
