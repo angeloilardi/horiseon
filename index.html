@@ -4,11 +4,12 @@
 <head>
     <meta charset="UTF-8" />
     <link rel="stylesheet" href="./assets/css/style.css">
-    <title>website</title>
+    <title>Horiseon</title>
 </head>
 
 <body>
-    <!-- Header and navigation bar section -->
+    <!-- Header and navigation bar section: replaced divs with header and nav tags -->
+
     <header class="header">
         <h1>Hori<span class="seo-header">seo</span>n</h1>
         <nav>
@@ -25,24 +26,28 @@
             </ul>
         </nav>
     </header>
-    <!-- Full width image -->
+
+    <!-- Full width image: replaced div with background image using img instead -->
+
     <img id="meeting-image" src="./assets/images/digital-marketing-meeting.jpg" alt="co-workers in a meeting room">
+    <!-- Content section: divs were replaced with section and article tags,the alt attribute was added to all images  -->
     <section class="content">
-        <article class="search-engine-optimization">
+        <!-- Unfied thr class attributes for all the articles and deleted unnecessary id attributes -->
+        <article class="main-content-article">
             <img src="./assets/images/search-engine-optimization.jpg" alt="notebbok on a desk along with a laptop, a cup of coffee and some pens" class="float-left" />
             <h2>Search Engine Optimization</h2>
             <p>
                 The dominance of mobile internet use means that users are searching for the right business as they travel, shop, or sit on their couch at home. Search Engine Optimization (SEO) allows you to increase your visibility and find the right customers for your business.
             </p>
         </article>
-        <article id="online-reputation-management" class="online-reputation-management">
+        <article class="main-content-article">
             <img src="./assets/images/online-reputation-management.jpg" class="float-right" alt="a reputation graph on a laptop screen"/>
             <h2>Online Reputation Management</h2>
             <p>
                 The web is full of opinions, and some of these can be negative. Social media allows anyone with an internet connection to say whatever they want about your business. Online Reputation Management gives you the control over what potential customers see when they search for your business.
             </p>
         </article>
-        <article id="social-media-marketing" class="social-media-marketing">
+        <article class="main-content-article">
             <img src="./assets/images/social-media-marketing.jpg" class="float-left" alt="co-workers at a big desk sharing ideas about social media"/>
             <h2>Social Media Marketing</h2>
             <p>
@@ -50,6 +55,7 @@
             </p>
         </article>
     </section>
+    <!-- Side content section: divs were replaced with aside and article tags, the alt attribute was added to all images -->
     <aside class="benefits">
         <article class="benefit-lead">
             <h3>Lead Generation</h3>
@@ -73,6 +79,7 @@
             </p>
         </article>
     </aside>
+    <!-- Footer: swapped div for footer tag and replace h2 heading with h4 -->
     <footer>
         <h4>Made with ❤️️ by Horiseon</h4>
         <p>
