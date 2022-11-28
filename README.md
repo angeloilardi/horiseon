@@ -3,7 +3,7 @@
 
 ## Description
 
-This page was created for Horiseon, a marketing agency, to showcase all the services they offer to their clients.
+This page was created for Horiseon, a marketing agency, to showcase all the services they offer to their clients. Hotiseon is focussed on Search Engine Optimization, Social Media Marketing and Online Reputation Management.
 
 
 ## Installation
